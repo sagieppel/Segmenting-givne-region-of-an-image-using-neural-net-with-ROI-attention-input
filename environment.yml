@@ -1,0 +1,9 @@
+name: LabPics
+channels:
+  - pytorch
+dependencies:
+  - pytorch
+  - torchvision
+  - scipy
+  - pip:
+    - opencv-python
