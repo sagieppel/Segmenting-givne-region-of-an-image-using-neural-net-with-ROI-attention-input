@@ -37,8 +37,7 @@ This network was run with Python 3.7 [Anaconda](https://www.anaconda.com/downloa
 1) Install [Anaconda](https://www.anaconda.com/download/)
 2) Create a virtual environment with the required dependencies ([Pytorch](https://pytorch.org/), torchvision, scipy and OpenCV): *conda env create -f environment.yml*
 3) Activate the virtual environment: *conda activate vessel-segmentation*
-4) Download the code with trained model weight from [here]() or [here]().
-
+4) Download the code with trained model weight from [here](https://drive.google.com/file/d/1uqvTqEFqMDXCuoEDlfm3yjNnmpw2bX-b/view?usp=sharing).
 
 
 # Running Example prediction on one image and one vessel mask
