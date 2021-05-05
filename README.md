@@ -3,7 +3,7 @@
 # Detecting segmenting liquid materials inside containers for medical and chemistry labs. 
 
 ## General
-See paper [Computer vision for liquid samples in hospitals and medical labs using hierarchical image segmentation]() for details.
+See paper [Computer vision for liquid samples in hospitals and medical labs using hierarchical image segmentation](https://arxiv.org/ftp/arxiv/papers/2105/2105.01456.pdf) for details.
 
 This code for a neural net that receives an image and an attention mask in the image and segments the content of this mask in the image
 using both instance and semantic segmentation. The ROI mask covers given glassware or transparent container in the image, and the net segments the content of this vessel, meaning liquid and other material phases (Figure 1-3).
@@ -78,7 +78,7 @@ Run prediction on the LabPics test set.
 (These results can be used as input for the LabPics evaluation scripts)
 
 ## Example Results
-A detailed description of the net and results can be found in [here] ()
+A detailed description of the net and results can be found in [here](https://arxiv.org/ftp/arxiv/papers/2105/2105.01456.pdf)
 Some examples are shown in Figure 2.
 
 ![](Figure2.jpg)
