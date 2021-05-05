@@ -3,7 +3,7 @@
 # Detecting segmenting liquid materials inside containers for medical and chemistry labs. 
 
 ## General
-See paper [Computer vision for liquid samples in hospitals and medical labs using hierarchical image segmentation](https://arxiv.org/ftp/arxiv/papers/2105/2105.01456.pdf) for details.
+See paper [Computer vision for liquid samples in hospitals and medical labs using hierarchical image segmentation and relations prediction](https://arxiv.org/ftp/arxiv/papers/2105/2105.01456.pdf) for details.
 
 This code for a neural net that receives an image and an attention mask in the image and segments the content of this mask in the image
 using both instance and semantic segmentation. The ROI mask covers given glassware or transparent container in the image, and the net segments the content of this vessel, meaning liquid and other material phases (Figure 1-3).
@@ -92,5 +92,5 @@ The net is based on a fully convolutional neural net (FCN) with the vessel mask 
 ![](Figure3.jpg)
 Figure 3: Left: If the pipette mask is used as an input for the net, the net predicts the blood segment directly inside the pipette; right: If the mask of the tube containing the pipette is used as input, the net will ignore the blood inside the pipette and will only predict the direct content of the tube.
 
-Most images used in this paper were taken with permission from Shutterstock.
+Most images used in this page were taken with permission from Shutterstock.
 
