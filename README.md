@@ -1,6 +1,8 @@
-﻿# Segmenting specific region of an image using neural that receive a container ROI mask and segment the content of this mask in the image
+﻿# Detecting segmenting liquid materials inside containers for medical and chemistry labs. 
+ 
+ # Segmenting specific region of an image using neural that receive a container ROI mask and segment the content of this mask in the image
 
-# Detecting segmenting liquid materials inside containers for medical and chemistry labs. 
+
 
 ## General
 See paper [Computer vision for liquid samples in hospitals and medical labs using hierarchical image segmentation and relations prediction](https://arxiv.org/ftp/arxiv/papers/2105/2105.01456.pdf) for details.
